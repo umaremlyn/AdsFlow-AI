@@ -1,4 +1,11 @@
-# AdsFlow-AI
+# <AdStream_AI>
+
+Built with [Wasp](https://wasp-lang.dev), based on the [Open Saas](https://opensaas.sh) template.
+
+## Development
+### Running locally
+
+ - Make sure you have the `.env.client` and `.env.server` files with correct dev values in the root of the project.
 To run your new app, follow the instructions below:
 
   1. Position into app's root directory:
