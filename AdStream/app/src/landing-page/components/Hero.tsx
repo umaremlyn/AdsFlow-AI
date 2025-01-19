@@ -19,11 +19,11 @@ export default function Hero({ title, subtitle, callToAction, callToActionLink, 
           <div className="lg:mb-18 mx-auto max-w-3xl text-center">
             {/* Title */}
             <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl dark:text-white">
-              {title || 'Some cool words about your product'}
+                {title || 'Transform Your Ads & Marketing with AI'}
             </h1>
             {/* Subtitle */}
             <p className="mt-6 mx-auto max-w-2xl text-lg leading-8 text-gray-600 dark:text-white">
-              {subtitle || 'With some more exciting words about your product!'}
+              {subtitle || 'Effortlessly create, optimize, and deploy AI-driven ad campaigns in minutes.'}
             </p>
             {/* Call-to-action button */}
             <div className="mt-10 flex items-center justify-center gap-x-6">

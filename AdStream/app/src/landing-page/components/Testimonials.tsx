@@ -1,7 +1,7 @@
 interface Testimonial {
   name: string;
   role: string;
-  image: string;
+  avatarSrc: string;
   socialUrl: string;
   quote: string;
 };
@@ -22,7 +22,7 @@ export default function Testimonials({ testimonials }: { testimonials: Testimoni
                 </blockquote>
                 <figcaption className='mt-6 text-base text-white'>
                   <a href={testimonial.socialUrl} className='flex items-center gap-x-2'>
-                    <img src={testimonial.image} loading='lazy' className='h-12 w-12 rounded-full' />
+                    <img src={testimonial.avatarSrc} loading='lazy' className='h-12 w-12 rounded-full' />
                     <div>
                       <div className='font-semibold hover:underline'>{testimonial.name}</div>
                       <div className='mt-1'>{testimonial.role}</div>
