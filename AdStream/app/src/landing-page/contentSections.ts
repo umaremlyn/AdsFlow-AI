@@ -12,30 +12,31 @@ export const landingPageNavigationItems: NavigationItem[] = [
 ];
 export const features = [
   {
-    name: 'AI-Powered Campaign Creation',
-    description: 'Generate impactful ad campaigns tailored to your audience.',
-    icon: '🤝',
-    href: DocsUrl,
+    name: "AI-Powered Campaigns",
+    description: "Leverage AI to create and manage marketing campaigns effortlessly.",
+    icon: "🤖",
+    href: "/ai-campaigns",
+  },
+  {
+    name: "Real-Time Analytics",
+    description: "Monitor your campaign performance with real-time dashboards.",
+    icon: "📊",
+    href: "/analytics",
   },
   {
     name: 'Multi-Platform Support',
     description: 'Launch campaigns across multiple platforms effortlessly.',
-    icon: '🔐',
+    icon: "🔗",
     href: DocsUrl,
   },
   {
-    name: 'Real-Time Performance Insights',
-    description: 'Track campaign performance with detailed analytics.',
-    icon: '🥞',
-    href: DocsUrl,
-  },
-  {
-    name: 'Intuitive Dashboard',
-    description: 'Manage all your marketing activities in one easy-to-use interface.',
-    icon: '💸',
+    name: "User-Friendly Interface",
+    description: "Navigate easily with our intuitive design.",
+    icon: "🎨",
     href: DocsUrl,
   },
 ];
+
 export const testimonials = [
   {
     name: 'Mahir Maina',

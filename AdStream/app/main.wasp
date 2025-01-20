@@ -37,7 +37,7 @@ app OpenSaaS {
       //   (RequestPasswordReset(Route|Page), PasswordReset(Route|Page), EmailVerification(Route|Page))
       email: {
         fromField: {
-          name: "AdStream AI by Leenco Tech Ltd",
+          name: "AdStream AI",
           email: "Leencotech@gmail.com"
         },
         emailVerification: {
